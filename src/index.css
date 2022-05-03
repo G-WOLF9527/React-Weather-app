@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  background-image: url(./pics/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.75));
+  padding: 50px;
+}
+
+.search{
+  width: 100%;
+  margin-right: 75px;
+}
+
+.searchBar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  appearance: none;
+  background: none;
+  border:none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: -25px;
+  color:black;
+  font-size: 20px;
+  transition: 0.4 ease;
+}
+
+.search .searchBar:focus {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.locationContainer .location {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.locationContainer .date {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.weather {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.weather .temperature {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 16px;
+  padding: 15px 25px;
+  color: #FFF;
+  font-size: 102px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.weather .weatherType {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+}
+
